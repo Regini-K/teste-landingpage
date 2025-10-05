@@ -35,6 +35,9 @@ body {
     color: var(--white);
     padding: 1rem 0;
     box-shadow: var(--shadow);
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
 }
 
 .navbar .container {
@@ -795,4 +798,5 @@ textarea:focus {
     .container {
         max-width: none;
     }
+
 }
